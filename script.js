@@ -46,3 +46,11 @@ function handleNoClick() {
 function handleYesClick() {
     window.location.href = "yes_page.html";
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const noButton = document.querySelector('.no-button');
+    const yesButton = document.querySelector('.yes-button');
+
+    noButton.addEventListener('click', handleNoClick);
+    yesButton.addEventListener('click', handleYesClick);
+});
