@@ -12,7 +12,7 @@ const messages = [
     "I will start crying now...",
     "I really will pleaseee!! 😭",
     "I am crying Now 😭😭, haa boldo na pleaseee!",
-    "Please Say yes, Say yess 😭😭"
+    "Please Say yes, Say yess my bbg my Pasandida Aurat 😭😭"
 ];
 
 let messageIndex = 0;
