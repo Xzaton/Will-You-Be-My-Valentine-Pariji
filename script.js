@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const noButton = document.querySelector('.no-button');
     const yesButton = document.querySelector('.yes-button');
 
+    // Initialize the text of the "no-button"
+    noButton.textContent = "no"; // or set it to messages[0] if you want the first message initially
+
     noButton.addEventListener('click', handleNoClick);
     yesButton.addEventListener('click', handleYesClick);
 });
