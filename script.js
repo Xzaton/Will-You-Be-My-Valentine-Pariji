@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     noButton.addEventListener('click', handleNoClick);
 
     const audio = document.getElementById('backgroundMusic');
-    audio.src = "https://www.youtube.com/embed/FIRST_VIDEO_ID?autoplay=1";  // Start playing the initial song
+    audio.src = "https://www.youtube.com/embed/NoEMIVx4J78?autoplay=1";  // Start playing the initial song
 
     yesButton.addEventListener('click', handleYesClick);
 });
