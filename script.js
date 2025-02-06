@@ -30,7 +30,6 @@ const messages = [
     "Ohh meri Husan Pari",
     "Oh meri Pasandida Aurat",
     "Ab toh Haa boldo na pleaseee! 💗❤️😭"
-
 ];
 
 let messageIndex = 0;
