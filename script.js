@@ -37,12 +37,12 @@ let messageIndex = 0;
 function handleNoClick() {
     const noButton = document.querySelector('.no-button');
     const yesButton = document.querySelector('.yes-button');
-    console.log("handleNoClick called");  // Debugging statement
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
+    
+    // Increase the font size of the "yes-button"
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-    console.log(`Current font size: ${currentSize}px`);  // Debugging statement
-    yesButton.style.fontSize = `${currentSize * 1.5}px`;
+    yesButton.style.fontSize = `${currentSize + 2}px`;  // Increase font size by 2px on each click
 }
 
 function handleYesClick() {
