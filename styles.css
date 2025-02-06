@@ -43,7 +43,9 @@ body {
     cursor: pointer;
     white-space: normal;  /* Allow text to wrap */
     word-wrap: break-word;  /* Break long words */
-  }
+    width: 200px;  /* Adjust width as needed */
+    max-width: 100%;  /* Ensure it doesn't exceed the container */
+}
   
   .gif_container img {
     max-width: 100%;
