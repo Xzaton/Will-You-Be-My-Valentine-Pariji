@@ -27,7 +27,10 @@ const messages = [
     "I am cryingg Now 😭😭😭😭", 
     "Ohh meri Husan Pari",
     "Oh meri Pasandida Aurat",
-    "Ab toh Haa boldo na pleaseee! 💗❤️😭"
+    "Ab toh Haa boldo na pleaseee! 💗❤️😭",
+    "Ab toh End agya",
+    "Ek per pe khde hoke, rotte hue bol raha😭",
+    "Pleaseee say Yes😭😭💗❤️ manjao😭"
 ];
 let messageIndex = 0;
 
