@@ -41,6 +41,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    white-space: normal;  /* Allow text to wrap */
+    word-wrap: break-word;  /* Break long words */
   }
   
   .gif_container img {
