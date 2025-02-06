@@ -39,25 +39,10 @@ function handleNoClick() {
     const yesButton = document.querySelector('.yes-button');
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
-
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-    yesButton.style.fontSize = `${currentSize + 1.5}px`;
+    yesButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
 function handleYesClick() {
-    const audio = document.getElementById('backgroundMusic');
-    audio.src = "https://www.youtube.com/embed/SECOND_VIDEO_ID?autoplay=1";  // Change to the new song
     window.location.href = "yes_page.html";
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    const noButton = document.querySelector('.no-button');
-    const yesButton = document.querySelector('.yes-button');
-    noButton.textContent = "no";
-    noButton.addEventListener('click', handleNoClick);
-
-    const audio = document.getElementById('backgroundMusic');
-    audio.src = "https://www.youtube.com/embed/NoEMIVx4J78?autoplay=1";  // Start playing the initial song
-
-    yesButton.addEventListener('click', handleYesClick);
-});
